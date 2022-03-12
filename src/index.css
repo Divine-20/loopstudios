@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.home{
+  background-image: url("../loopstudios-landing-page-main/loopstudios-landing-page-main/images/desktop/image-hero.jpg");
+  height: 745px;
+  width: 100%;
+}
+nav {
+  display: flex;
+ 
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+.menu{
+  display: flex;
+  float: right;
+  justify-content: space-between;
+  /* padding: 0 200px ; */
+
+}
+.logo{
+  color: white;
+  font-family: 'Red Hat Text', sans-serif;
+  
+}
+
+ .menu ul{
+    display: flex;
+    float: right;
+    position: absolute;
+    right: 10%;
+    margin-top: 43px;
+   
+  }
+
+.menu ul li{
+  list-style-type: none;
+  color: white;
+  margin-left: 30px;
+ 
+} 
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.experience{
+  height: 170px;
+  width: 400px;
+  border: 2px solid white;
+  color: white;
+  font-size: 40px;
+  padding-left: 23px;
+  padding-top: 10px;
+  margin-top: 7em;
+  margin-left: 5em;
+}
+.Image{
+  margin-top: 80px;
+  margin-left: 150px;
+}
+.leader{
+  height: 400px;
+  width: 700px;
+  background-color: white;
+  position: absolute;
+  right: 8%;
+  margin-top: -20em;
+}
+.leader  h1{
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.leader p{
+  margin-left: 100px;
+
+}
+.Images {
+  display: flex;
+  margin-top: 100px;
+  
+}
+.images2{
+  display: flex;
+  margin-top: 80px;
+}
+.Images h1{
+  color: white; 
+  font-weight: lighter;
+} 
+.images2 h1{
+ color: white;
+ margin-top: -130px;
+ font-weight: lighter;
+}
+button {
+  float: top;
+  position: absolute;
+  right: 13%;
+  width: 200px;
+  background-color: white;
+  border: 1px solid black;
+  margin-top: -6em;
+}
+nav h1 {
+  font-size: 40px;
+  margin-left: 100px;
+}
+
+.foot{
+  background-color: black;
+  height: 186px;
+  width: 100%;
+  margin-top: 13em;
+ 
+}
+.flogo{
+  color: white;
+}
+.fmenu ul{
+  display: flex;
+  list-style: none;
+}
+
+.fmenu ul li a{
+  color: white;
+  text-decoration: none;
+  margin-left: 60px;
+}
+.icons ul {
+  display: flex;
+  position: absolute;
+  right: 6%;
+  list-style-type: none;
+}
+.fab {
+   height: 45px;
+   width: 45px;
+   color: white;
+   margin-top: 40px;
+ 
+}
+.foot p{
+  color: rgb(163, 159, 159);
+  margin-top: 104px;
+}
