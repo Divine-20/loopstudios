@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Footer from './footer'
 function Creation() {
   return (
     <div>
@@ -45,6 +45,7 @@ function Creation() {
     <h1 style={{marginLeft:100}}>MAKE IT <br /> FISHEYE</h1>
     </div>
     </div>
+    <Footer />
     </div>
     )
 }
