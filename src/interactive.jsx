@@ -5,7 +5,7 @@ function Interactive() {
   return (
     <div className='career'>
       <div className='Image'>
-        <img src='../loopstudios-landing-page-main/loopstudios-landing-page-main/images/desktop/image-interactive.jpg' />
+        <img src='/image-interactive.jpg' />
       </div>
       <div className='leader'>
         <h1>THE LEADER IN <br />INTERACTIVE VR</h1>
